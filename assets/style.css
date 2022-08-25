@@ -3,3 +3,9 @@
   margin: 0px;
   padding: 0px;
 }
+
+.prj-img {
+  width: 200px;
+  height: 200px;
+  border: solid 2px #000;
+}
