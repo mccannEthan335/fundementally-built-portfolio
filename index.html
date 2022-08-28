@@ -1,42 +1,42 @@
-<!---->
+<!--declares doc-->
 <!DOCTYPE html>
-<!---->
+<!--declares code language and language of orgin-->
 <html lang="en-US">
-  <!---->
+  <!--holds metadata-->
   <head>
-    <!---->
+    <!--tells the browser the set of charecters, the size of screen, and keywords-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, Personal Portfolio">
-    <!---->
+    <!--tells the browser the title, displayed on page tab-->
     <title>Ethan McCann- Portfolio</title>
-    <!---->
+    <!--relative link to css file-->
     <link rel="stylesheet" href="assets/style.css">
   </head>
-  <!---->
+  <!--holds the displayed information-->
   <body>
-    <!---->
+    <!--symantic and defines document to the user-->
     <header class="title">
       <h1>Ethan McCann</h1>
       <p class="subtitle">My Professional Portfolio</p>
     </header>    
-    <!---->  
+    <!--breaks the code up and separates the information -->  
     <section>  
-      <!---->
+      <!--for navigation-->
       <nav>
         <ul class="nav-links">
-        <!---->
-          <li><a id="n-link1" href="#aboutme">About Me</a></li>
+        <!--listed link tags -->
+          <li><a href="#aboutme">About Me</a></li>
           <br>
-          <li><a id="n-link2" href="#works">Published Projects</a></li>
+          <li><a href="#works">Published Projects</a></li>
           <br>
-          <li><a id="n-link3" href="#contact">Contact Info</a></li>
+          <li><a href="#contact">Contact Info</a></li>
         </ul>
       </nav>    
     </section>
-    <!---->
+    <!--given class name to create a container for styling purposes-->
     <section class="bio">
-      <!---->
+      <!--image and all others contain alt names in case they are unable to load-->
       <header> 
         <h2 id="aboutme">About Me</h2>
         <img id="headshot" src="./assets/images/headshot.jpg" alt="Personal headshot">
@@ -49,7 +49,7 @@
         expectations. I am trying to be part of what comes next.
       </p>
     </section>
-      <!---->
+      <!--article tags are used as children to a section tag allowing the seperation within the section -->
       <section class="projects" id="works">
         <article id="prj1">
           <header>
@@ -86,6 +86,7 @@
           <a href="assets/images/coming-soon.jpg"><img class="prj-img" src="assets/images/placeholder.jpg" alt="Placeholder"></a>
         </article>  
       </section>
+      <!--all links are active and will take you to my profiles-->
       <section class="contact" id="contact">
         <header>
           <h3>Authors contact information</h3>
@@ -97,8 +98,8 @@
         <a href="https://github.com/mccannEthan335">GitHub</a>
         <a href="https://www.linkedin.com/in/ethan-mccann-b67a22231">Linkedin</a>
         <a href="https://www.facebook.com/ethan.mccann/">Facebook</a>
-
       </section>
+      <!--labels the ending of a document and has a link to launch to the top-->
       <footer>
         <h4>Constructed proudly by a 3rd generation coding enthusiast</h4>
         <a id="tplink" href="#top">Return to top</a>
